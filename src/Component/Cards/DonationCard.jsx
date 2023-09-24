@@ -27,7 +27,7 @@ const DonationCard = ({ donation }) => {
           <a style={{color:Text_and_Button_bg_Color, backgroundColor: Card_bg_Color }} className="p-1 rounded-md">
             {Category}
           </a>
-          <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+          <h4 className="mb-2 block font-sans text-lg lg:text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
             {Title}
           </h4>
           

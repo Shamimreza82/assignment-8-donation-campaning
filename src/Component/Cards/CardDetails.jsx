@@ -37,29 +37,29 @@ const CardDetails = () => {
     if(!donation) {
         addedDonation.push(data)
         localStorage.setItem('Donation', JSON.stringify(addedDonation))
-        swal("Good job!", "Donation Add", "success");
+        swal("Donation Added", "", "success");
     }
     else {
         addedDonation.push(...donation, data)
         localStorage.setItem('Donation', JSON.stringify(addedDonation))
-        swal("Good job!", "Donation Add", "success");
+        swal("Donation Added", "", "success");
     }
 
   }
 
   return (
-    <div className="flex justify-center w-[80%] m-auto ">
+    <div className="flex justify-center lg:w-[80%] m-auto my-5 ">
       <div className="card card-compact  bg-base-100 ">
         <div>
           <img className="relative lg:h-[450px] w-full"
             src={Picture}
             alt="Shoes"
           />
-          <div className="absolute -mt-12 bg-slate-400  py-3">
-                <button onClick={handleDonation}>Donate: ${Price}</button>
-          </div>
         </div>
-        <h1 className="text-2xl py-3 px-2">{Title}</h1>
+        <div className="absolute -mt-12 ml-3 z-20">
+                <button style={{backgroundColor: Text_and_Button_bg_Color }} className="p-2 rounded-md text-white font-bold" onClick={handleDonation}>Donate: ${Price}</button>
+          </div>
+        <h1 className="text-2xl py-3 px-2 font-bold">{Title}</h1>
         <div className="card-body">
           <p className="p-3">{Description}</p>
 
