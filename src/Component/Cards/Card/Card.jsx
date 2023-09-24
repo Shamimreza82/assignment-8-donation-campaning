@@ -1,7 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Card = ({ cardData }) => {
+
+
   const {
+    id,
     Card_bg_Color,
     Picture,
     Title,
@@ -11,6 +15,7 @@ const Card = ({ cardData }) => {
   } = cardData || {};
   return (
     <div>
+      <Link to={`/cardDetails/${id}`}>
       <div className="card h-[300px] bg-base-100 shadow-xl rounded-2xl">
         <figure >
           <img className="h-[200px] w-full rounded-t-lg "
@@ -21,9 +26,9 @@ const Card = ({ cardData }) => {
         <div className="card-body px-4">
           <h2 >{Category}</h2>
           <p>{Title}</p>
-
         </div>
-      </div>
+      </div>      
+      </Link>
     </div>
   );
 };
