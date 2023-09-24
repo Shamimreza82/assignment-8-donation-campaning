@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "Picture": "https://i.ibb.co/nkX6YyN/health1.png",
+      "Title": "Empower Health",   
+      "Category": "Health",
+      "Category_bg_Color": "#0052FF26",
+      "Card_bg_Color": "#0052FF33",
+      "Text_and_Button_bg_Color": "#0052FF",
+      "Description": "Support healthcare initiatives by donating today. Your contribution can provide essential medical care, medications, and vaccinations to those in need, ensuring a healthier future for all.",
+      "Price": 9
+    },
+    {
+      "id": 2,
+      "Picture": "https://i.ibb.co/X3LSXFf/health2.jpg",
+      "Title": "Invest in Wellness",
+      "Category": "Health",
+      "Category_bg_Color": "#0052FF26",
+      "Card_bg_Color": "#0052FF33",
+      "Text_and_Button_bg_Color": "#0052FF",
+      "Description": " Give the gift of health through your donation. Your support can help fund research, medical equipment, and health education programs, making a lasting impact on individuals and communities.",
+      "Price": 11
+    },
+    {
+      "id": 3,
+      "Picture": "https://i.ibb.co/rbM65Pf/health3.jpg",
+      "Title": "Join the Fight for Better Health",
+      "Category": "Health",
+      "Category_bg_Color": "#0052FF26",
+      "Card_bg_Color": "#0052FF33",
+      "Text_and_Button_bg_Color": "#0052FF",
+      "Description": "Join us in the battle for improved health and well-being. Your donation can aid in disease prevention, access to clean water, and nutrition support, transforming lives and fostering healthier societies.",
+      "Price": 14
+    },
+    {
+      "id": 4,
+      "Picture": "https://i.ibb.co/sCJZ9v6/health4.jpg",
+      "Title": "Unlock Potential: Donate for Educational Excellence",
+      "Category": "Education",
+      "Category_bg_Color": "#FF444A26",
+      "Card_bg_Color": " #FF444A33",
+      "Text_and_Button_bg_Color": "#FF444A",
+      "Description": "Join the movement to unlock human potential. Your donation can provide access to quality education, empower students, and foster a more educated and prosperous world.",
+      "Price": 15
+    },
+    {
+      "id": 5,
+      "Picture": "https://i.ibb.co/s5jx8y0/edu2.jpg",
+      "Title": "Empower Minds: Support Education Through Donations",
+      "Category": "Education",
+      "Category_bg_Color": "#FF444A26",
+      "Card_bg_Color": " #FF444A33",
+      "Text_and_Button_bg_Color": "#FF444A",
+      "Description": "Your contribution can change lives by funding scholarships, classroom supplies, and educational programs. Help shape a brighter future through your donation to education.",
+      "Price": 7
+    },
+    {
+      "id": 6,
+      "Picture": "https://i.ibb.co/HNF010T/edu3.jpg",
+      "Title": "Invest in Knowledge: Make an Education Donation",
+      "Category": "Education",
+      "Category_bg_Color": "#FF444A26",
+      "Card_bg_Color": " #FF444A33",
+      "Text_and_Button_bg_Color": "#FF444A",
+      "Description": " Invest in the future with your donation. Support quality education for all, ensuring access to learning resources, skilled teachers, and innovative technologies.",
+      "Price": 6
+    },
+    {
+      "id": 7,
+      "Picture": "https://i.ibb.co/5YBf78w/cloth1.jpg",
+      "Title": "Dress for Success: Donate Clothing, Change Lives",
+      "Category": "Clothing",
+      "Category_bg_Color": "#79C23F26",
+      "Card_bg_Color": "#79C23F33",
+      "Text_and_Button_bg_Color": "#79C23F",
+      "Description": "Your gently-used clothing donations can make a big difference. Help individuals in need access clean clothes, warmth, and dignity through your generous clothing donation.",
+      "Price": 8
+    },
+    {
+      "id": 8,
+      "Picture": "https://i.ibb.co/Jr330xL/cloth2.jpg",
+      "Title": "Share the Warmth: Clothing Donation Drive",
+      "Category": "Clothing",
+      "Category_bg_Color": "#79C23F26",
+      "Card_bg_Color": "#79C23F33",
+      "Text_and_Button_bg_Color": "#79C23F",
+      "Description": "Join our clothing donation drive and share warmth with those less fortunate. Your contributions can provide essential clothing to homeless shelters and underserved communities.",
+      "Price": 16
+    },
+    {
+      "id": 9,
+      "Picture": "https://i.ibb.co/kByNsrX/clooth3.jpg",
+      "Title": "Clothe the Community: Donate Fashion for a Cause",
+      "Category": "Clothing",
+      "Category_bg_Color": "#79C23F26",
+      "Card_bg_Color": "#79C23F33",
+      "Text_and_Button_bg_Color": "#79C23F",
+      "Description": "Transform lives with your clothing donation. Support our mission to clothe the community, promoting self-esteem and helping individuals in crisis regain their confidence and independence.",
+      "Price": 14
+    },
+    {
+      "id": 10,
+      "Picture": "https://i.ibb.co/nBLQrsQ/food1.jpg",
+      "Title": "Nourish the Needy: Donate Food for a Better Tomorrow",
+      "Category": "Food",
+      "Category_bg_Color": "#F8714726",
+      "Card_bg_Color": "#F8714733",
+      "Text_and_Button_bg_Color": "#F87147",
+      "Description": "Your food donations can end hunger. Contribute non-perishable items to our drive and provide nourishment to families struggling with food insecurity in your community.",
+      "Price": 21
+    },
+    {
+      "id": 11,
+      "Picture": "https://i.ibb.co/jJmXQmV/food2.jpg",
+      "Title": "Share the Harvest: Food Donation Initiative",
+      "Category": "Food",
+      "Category_bg_Color": "#F8714726",
+      "Card_bg_Color": "#F8714733",
+      "Text_and_Button_bg_Color": "#F87147",
+      "Description": "Join our food donation initiative to combat hunger. Your generosity can help stock food banks, ensuring no one goes to bed hungry.",
+      "Price": 12
+    },
+    {
+      "id": 12,
+      "Picture": "https://i.ibb.co/VQbH6Ft/food3.jpg",
+      "Title": "Feed Hope, Feed Lives: Make a Difference with Food Donations",
+      "Category": "Food",
+      "Category_bg_Color": "#F8714726",
+      "Card_bg_Color": "#F8714733",
+      "Text_and_Button_bg_Color": "#F87147",
+      "Description": " Be a part of the solution. Your food donations can bring hope to those in need. Help us fight hunger and provide essential sustenance to vulnerable individuals and families.",
+      "Price": 20
+    }
+  ]
+  
