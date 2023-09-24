@@ -8,7 +8,7 @@
       "Card_bg_Color": "#0052FF33",
       "Text_and_Button_bg_Color": "#0052FF",
       "Description": "Support healthcare initiatives by donating today. Your contribution can provide essential medical care, medications, and vaccinations to those in need, ensuring a healthier future for all.",
-      "Price": 9
+      "Price": 85
     },
     {
       "id": 2,
@@ -52,7 +52,7 @@
       "Card_bg_Color": " #FF444A33",
       "Text_and_Button_bg_Color": "#FF444A",
       "Description": "Your contribution can change lives by funding scholarships, classroom supplies, and educational programs. Help shape a brighter future through your donation to education.",
-      "Price": 7
+      "Price": 52
     },
     {
       "id": 6,
@@ -63,7 +63,7 @@
       "Card_bg_Color": " #FF444A33",
       "Text_and_Button_bg_Color": "#FF444A",
       "Description": " Invest in the future with your donation. Support quality education for all, ensuring access to learning resources, skilled teachers, and innovative technologies.",
-      "Price": 6
+      "Price": 41
     },
     {
       "id": 7,
@@ -74,7 +74,7 @@
       "Card_bg_Color": "#79C23F33",
       "Text_and_Button_bg_Color": "#79C23F",
       "Description": "Your gently-used clothing donations can make a big difference. Help individuals in need access clean clothes, warmth, and dignity through your generous clothing donation.",
-      "Price": 8
+      "Price": 85
     },
     {
       "id": 8,

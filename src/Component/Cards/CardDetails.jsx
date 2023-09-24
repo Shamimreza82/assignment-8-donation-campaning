@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { json, useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 const CardDetails = () => {
   const [data, setData] = useState();
@@ -11,13 +12,15 @@ const CardDetails = () => {
     Category,
     Category_bg_Color,
     Text_and_Button_bg_Color,
+    Price,
+    Description
+
   } = data || {};
 
 
  
   const cardsData = useLoaderData();
   const { id } = useParams();
-    console.log( typeof id)
   useEffect(() => {
     const findData = cardsData?.find(cardData => cardData.id == id);
         if(findData){
@@ -27,28 +30,39 @@ const CardDetails = () => {
   }, [cardsData, id]);
 
 
+  const handleDonation =() => {
 
+    const addedDonation = []
+    const donation = JSON.parse(localStorage.getItem('Donation'))
+    if(!donation) {
+        addedDonation.push(data)
+        localStorage.setItem('Donation', JSON.stringify(addedDonation))
+        swal("Good job!", "Donation Add", "success");
+    }
+    else {
+        addedDonation.push(...donation, data)
+        localStorage.setItem('Donation', JSON.stringify(addedDonation))
+        swal("Good job!", "Donation Add", "success");
+    }
 
-
+  }
 
   return (
-    <div className="flex justify-center ">
-      <div className="card card-compact  bg-base-100 shadow-xl">
+    <div className="flex justify-center w-[80%] m-auto ">
+      <div className="card card-compact  bg-base-100 ">
         <div>
-          <img className="relative lg:h-[450px]"
+          <img className="relative lg:h-[450px] w-full"
             src={Picture}
             alt="Shoes"
           />
-          <div className="absolute -mt-12 bg-slate-400 lg:w-[845px] py-3">
-                <button>All in one</button>
+          <div className="absolute -mt-12 bg-slate-400  py-3">
+                <button onClick={handleDonation}>Donate: ${Price}</button>
           </div>
         </div>
+        <h1 className="text-2xl py-3 px-2">{Title}</h1>
         <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+          <p className="p-3">{Description}</p>
+
         </div>
       </div>
     </div>

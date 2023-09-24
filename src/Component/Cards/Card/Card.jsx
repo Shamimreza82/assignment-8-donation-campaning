@@ -24,7 +24,7 @@ const Card = ({ cardData }) => {
           />
         </figure>
         <div className="card-body px-4">
-          <h2 >{Category}</h2>
+          <h2>{Category}</h2>
           <p>{Title}</p>
         </div>
       </div>      
