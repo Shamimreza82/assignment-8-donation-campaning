@@ -1,15 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from '../../assets/Logo.png'
 
 const Header = () => {
   return (
     <div>
-      <nav>
-        <ul>
+      <nav className="flex justify-between items-center px-4 py-3">
+        <div>
+            <img className="w-[150px]" src={Logo} alt="Logo" />
+        </div>
+        <ul className="flex gap-6">
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "font-bold" : isActive ? "font-bold text-[#FF444A] underline" : ""
             }
           >
             Home
@@ -17,7 +21,7 @@ const Header = () => {
           <NavLink
             to="/donation"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "font-bold text-[#FF444A] underline" : ""
             }
           >
             Donation
@@ -25,13 +29,14 @@ const Header = () => {
           <NavLink
             to="/statistics"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "font-bold text-[#FF444A] underline" : ""
             }
           >
             Statistics
           </NavLink>
         </ul>
       </nav>
+
     </div>
   );
 };
