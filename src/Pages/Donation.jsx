@@ -19,18 +19,20 @@ const Donation = () => {
 
     return (
         <div>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2 '>
                 {
                   isShow ? donations.map(donation => <DonationCard  donation={donation}></DonationCard>) 
                   :
-                  donations.slice(0,2).map(donation => <DonationCard  donation={donation}></DonationCard>)  
+                  donations.slice(0,4).map(donation => <DonationCard  donation={donation}></DonationCard>)  
                 }
             </div>
             
-            <div className='flex justify-center'>
-                    <button onClick={() => 
-                        setIsShow(!isShow)} className='bg-[#009444] text-white p-2 rounded-md mt-3 font-bold' >{isShow ? 'See Less' : 'See All'}</button>
-            </div>
+            {
+                donations.length > 4 && <div className='flex justify-center'>
+                <button onClick={() => 
+                    setIsShow(!isShow)} className='bg-[#009444] text-white p-2 rounded-md mt-3 font-bold' >{isShow || "See All"}</button>
+        </div> 
+            }
         </div>
     );
 };
