@@ -23,7 +23,7 @@ const Card = ({ cardData }) => {
             alt="Picture"
           />
         </figure>
-        <div className="card-body px-4 mt-3 space-y-2">
+        <div className="py-3 px-3 space-y-2">
           <a style={{color: Text_and_Button_bg_Color, backgroundColor:Card_bg_Color}} className="py-1 px-2  rounded-md">{Category}</a>
           <p style={{color: Text_and_Button_bg_Color }} className="font-bold">{Title}</p>
         </div>

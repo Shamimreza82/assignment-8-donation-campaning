@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from "recharts";
+import Chart from "react-apexcharts"
+
 
 const Statistics = () => {
   const [totalValue, settotalValue] = useState();
@@ -11,40 +12,37 @@ const Statistics = () => {
       (preValue, currentValue) => preValue + currentValue.Price,
       0
     );
+   
+    const total = 12;
+    const avarage = (valueSun / total) *100 ;
     settotalValue(valueSun);
-    const totalValue = 12;
-    const avarage = valueSun / totalValue;
     setAvarage(avarage);
   }, []);
 
   return (
-    <div>
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
-          <Pie
-            dataKey="value"
-            isAnimationActive={false}
-            data={totalValue}
-            cx="50%"
-            cy="50%"
-            outerRadius={80}
-            fill="#8884d8"
-            label
-          />
-          <Pie
-            dataKey="value"
-            data={totalValue}
-            cx={500}
-            cy={200}
-            innerRadius={40}
-            outerRadius={80}
-            fill="#82ca9d"
-          />
-          <Tooltip />
-        </PieChart>
-      </ResponsiveContainer>
-    </div>
+    <>
+     <div className=" flex justify-center items-center min-h-screen">
+        <Chart
+        type="pie"
+        width={500}
+        height={400}
+        series={[avarage, totalValue]}
+        options={{
+            labels:['Total Donation', "Your Donation"],
+            colors:['#FF444A', '#00C49F']
+        }}
+        >
+            
+
+        </Chart>
+    </div> 
+
+
+
+
+    </>
   );
 };
 
 export default Statistics;
+

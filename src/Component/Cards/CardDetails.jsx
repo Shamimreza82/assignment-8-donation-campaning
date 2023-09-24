@@ -55,10 +55,11 @@ const CardDetails = () => {
             src={Picture}
             alt="Shoes"
           />
-        </div>
-        <div className="absolute -mt-12 ml-3 z-20">
+          <div className="absolute -mt-12 ml-3">
                 <button style={{backgroundColor: Text_and_Button_bg_Color }} className="p-2 rounded-md text-white font-bold" onClick={handleDonation}>Donate: ${Price}</button>
           </div>
+        </div>
+        
         <h1 className="text-2xl py-3 px-2 font-bold">{Title}</h1>
         <div className="card-body">
           <p className="p-3">{Description}</p>

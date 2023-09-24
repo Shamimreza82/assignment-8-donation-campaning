@@ -1,12 +1,15 @@
 import React from "react";
 import Bg from "../assets/girl-1822480_1280.jpg";
 import Cards from "../Component/Cards/Cards";
+import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
+    const data = useLoaderData()
+    
   return (
     <div>
-      <div className="lg:min-h-screen">
-        <div className="hero lg:min-h-screen">
+      <div>
+        <div className="hero">
           <img className="opacity-10 object-cover w-full " src={Bg} alt="" />
           <div className=" bg-opacity-60"></div>
           <div className="flex justify-center items-center">
