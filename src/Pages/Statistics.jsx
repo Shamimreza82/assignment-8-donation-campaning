@@ -8,14 +8,13 @@ const Statistics = () => {
 
   useEffect(() => {
     const donations = JSON.parse(localStorage.getItem("Donation"));
-    const valueSun = donations.reduce(
-      (preValue, currentValue) => preValue + currentValue.Price,
-      0
-    );
-   
+
     const total = 12;
-    const avarage = (valueSun / total) *100 ;
-    settotalValue(valueSun);
+    const myDination = donations.length
+
+    const avarage = (myDination / total) *100 ;
+    const remaningAvarage = 100 - avarage; 
+    settotalValue(remaningAvarage)
     setAvarage(avarage);
   }, []);
 
@@ -26,14 +25,13 @@ const Statistics = () => {
         type="pie"
         width={450}
         height={450}
-        series={[avarage, totalValue ]}
+        series={[avarage, totalValue]}
         options={{
             labels:['Total Donation', "Your Donation"],
             colors:['#FF444A', '#00C49F']
         }}
         >
-            
-
+          
         </Chart>
     </div> 
 
