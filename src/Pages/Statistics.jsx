@@ -10,7 +10,7 @@ const Statistics = () => {
     const donations = JSON.parse(localStorage.getItem("Donation"));
 
     const total = 12;
-    const myDination = donations.length
+    const myDination = donations?.length || 0;
 
     const avarage = (myDination / total) *100 ;
     const remaningAvarage = 100 - avarage; 
@@ -19,7 +19,8 @@ const Statistics = () => {
   }, []);
 
   return (
-    <>
+    <div>
+     
      <div className=" flex justify-center items-center min-h-screen mt-7 lg:mt-0">
         <Chart
         type="pie"
@@ -38,7 +39,7 @@ const Statistics = () => {
 
 
 
-    </>
+    </div>
   );
 };
 
