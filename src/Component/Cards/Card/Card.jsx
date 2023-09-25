@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ cardData }) => {
+const Card = ({ cardData, search }) => {
 
-
+  console.log(search)
   const {
     id,
     Card_bg_Color,

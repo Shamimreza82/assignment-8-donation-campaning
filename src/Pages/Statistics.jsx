@@ -26,7 +26,7 @@ const Statistics = () => {
         type="pie"
         width={500}
         height={400}
-        series={[avarage, totalValue]}
+        series={[avarage, totalValue ]}
         options={{
             labels:['Total Donation', "Your Donation"],
             colors:['#FF444A', '#00C49F']
