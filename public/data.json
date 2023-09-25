@@ -35,7 +35,7 @@
     {
       "id": 4,
       "Picture": "https://i.ibb.co/sCJZ9v6/health4.jpg",
-      "Title": "Unlock Potential: Donate for Educational Excellence",
+      "Title": "Unlock Potential",
       "Category": "Education",
       "Category_bg_Color": "#FF444A26",
       "Card_bg_Color": " #FF444A33",
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "Picture": "https://i.ibb.co/s5jx8y0/edu2.jpg",
-      "Title": "Empower Minds: Support Education Through Donations",
+      "Title": "Empower Minds",
       "Category": "Education",
       "Category_bg_Color": "#FF444A26",
       "Card_bg_Color": " #FF444A33",
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "Picture": "https://i.ibb.co/HNF010T/edu3.jpg",
-      "Title": "Invest in Knowledge: Make an Education Donation",
+      "Title": "Invest in Knowledge",
       "Category": "Education",
       "Category_bg_Color": "#FF444A26",
       "Card_bg_Color": " #FF444A33",
@@ -68,7 +68,7 @@
     {
       "id": 7,
       "Picture": "https://i.ibb.co/5YBf78w/cloth1.jpg",
-      "Title": "Dress for Success: Donate Clothing, Change Lives",
+      "Title": "Dress for Success",
       "Category": "Clothing",
       "Category_bg_Color": "#79C23F26",
       "Card_bg_Color": "#79C23F33",
@@ -79,7 +79,7 @@
     {
       "id": 8,
       "Picture": "https://i.ibb.co/Jr330xL/cloth2.jpg",
-      "Title": "Share the Warmth: Clothing Donation Drive",
+      "Title": "Share the Warmth",
       "Category": "Clothing",
       "Category_bg_Color": "#79C23F26",
       "Card_bg_Color": "#79C23F33",
@@ -90,7 +90,7 @@
     {
       "id": 9,
       "Picture": "https://i.ibb.co/kByNsrX/clooth3.jpg",
-      "Title": "Clothe the Community: Donate Fashion for a Cause",
+      "Title": "Clothe the Community",
       "Category": "Clothing",
       "Category_bg_Color": "#79C23F26",
       "Card_bg_Color": "#79C23F33",
@@ -101,7 +101,7 @@
     {
       "id": 10,
       "Picture": "https://i.ibb.co/nBLQrsQ/food1.jpg",
-      "Title": "Nourish the Needy: Donate Food for a Better Tomorrow",
+      "Title": "Nourish the Needy",
       "Category": "Food",
       "Category_bg_Color": "#F8714726",
       "Card_bg_Color": "#F8714733",
@@ -112,7 +112,7 @@
     {
       "id": 11,
       "Picture": "https://i.ibb.co/jJmXQmV/food2.jpg",
-      "Title": "Share the Harvest: Food Donation Initiative",
+      "Title": "Share the Harvest",
       "Category": "Food",
       "Category_bg_Color": "#F8714726",
       "Card_bg_Color": "#F8714733",
@@ -123,7 +123,7 @@
     {
       "id": 12,
       "Picture": "https://i.ibb.co/VQbH6Ft/food3.jpg",
-      "Title": "Feed Hope, Feed Lives: Make a Difference with Food Donations",
+      "Title": "Feed Hope, Feed Lives",
       "Category": "Food",
       "Category_bg_Color": "#F8714726",
       "Card_bg_Color": "#F8714733",

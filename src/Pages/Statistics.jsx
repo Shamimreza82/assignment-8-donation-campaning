@@ -3,8 +3,8 @@ import Chart from "react-apexcharts"
 
 
 const Statistics = () => {
-  const [totalValue, settotalValue] = useState();
-  const [avarage, setAvarage] = useState();
+  const [totalValue, settotalValue] = useState([]);
+  const [avarage, setAvarage] = useState([]);
 
   useEffect(() => {
     const donations = JSON.parse(localStorage.getItem("Donation"));

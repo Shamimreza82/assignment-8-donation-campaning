@@ -19,7 +19,7 @@ const Cards = ({search}) => {
             const educationData = cardsData.filter(cardData => cardData.Category === 'Education')
             setDisplayJobs(educationData)
         } 
-        else if (search.toLowerCase() === 'Clothing'.toLowerCase) {
+        else if (search === 'Clothing') {
             const clothingData = cardsData.filter(cardData => cardData.Category === 'Clothing')
             setDisplayJobs(clothingData)
         }
