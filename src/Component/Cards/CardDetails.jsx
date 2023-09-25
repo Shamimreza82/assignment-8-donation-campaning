@@ -50,17 +50,17 @@ const CardDetails = () => {
   return (
     <div className="flex justify-center lg:w-[80%] m-auto my-5 ">
       <div className="card card-compact  bg-base-100 ">
-        <div>
+        <div >
           <img className="relative lg:h-[450px] w-full"
             src={Picture}
             alt="Shoes"
           />
-         <div style={{backgroundColor: Text_and_Button_bg_Color }} className="bg-slate-400 h-20 opacity-40 -mt-20"></div>
+         <div style={{backgroundColor: Text_and_Button_bg_Color }} className="bg-slate-400 h-20 opacity-40 -mt-20">
+            
+         </div>
+         <button style={{backgroundColor: Text_and_Button_bg_Color }} className="p-2 rounded-md
+             text-white font-bold z-20 -mt-14 absolute " onClick={handleDonation}>Donate: ${Price}</button>
         </div>
-        <div className="absolute  bottom-32 ml-3">
-                <button style={{backgroundColor: Text_and_Button_bg_Color }} className="p-2 rounded-md text-white font-bold" onClick={handleDonation}>Donate: ${Price}</button>
-          </div>
-        
         <h1 className="text-2xl py-3  font-bold">{Title}</h1>
           <p className="">{Description}</p>
       </div>
