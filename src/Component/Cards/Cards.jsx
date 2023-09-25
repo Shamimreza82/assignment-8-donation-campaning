@@ -11,15 +11,15 @@ const Cards = ({search}) => {
 
     useEffect(() => {
         setDisplayJobs(cardsData)
-        if(search === 'Health'){
+        if(search.toLowerCase() === 'Health'.toLowerCase()){
             const healtData = cardsData.filter(cardData => cardData.Category === 'Health')
                 setDisplayJobs(healtData)
         } 
-         else if (search === 'Education') {
+         else if (search.toLowerCase() === 'Education'.toLowerCase()) {
             const educationData = cardsData.filter(cardData => cardData.Category === 'Education')
             setDisplayJobs(educationData)
         } 
-        else if (search === 'Clothing') {
+        else if (search.toLowerCase() === 'Clothing'.toLowerCase) {
             const clothingData = cardsData.filter(cardData => cardData.Category === 'Clothing')
             setDisplayJobs(clothingData)
         }

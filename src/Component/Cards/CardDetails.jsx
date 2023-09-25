@@ -55,16 +55,14 @@ const CardDetails = () => {
             src={Picture}
             alt="Shoes"
           />
-          <div className="absolute -mt-12 ml-3">
+         <div style={{backgroundColor: Text_and_Button_bg_Color }} className="bg-slate-400 h-20 opacity-40 -mt-20"></div>
+        </div>
+        <div className="absolute  bottom-32 ml-3">
                 <button style={{backgroundColor: Text_and_Button_bg_Color }} className="p-2 rounded-md text-white font-bold" onClick={handleDonation}>Donate: ${Price}</button>
           </div>
-        </div>
         
-        <h1 className="text-2xl py-3 px-2 font-bold">{Title}</h1>
-        <div className="card-body">
-          <p className="p-3">{Description}</p>
-
-        </div>
+        <h1 className="text-2xl py-3  font-bold">{Title}</h1>
+          <p className="">{Description}</p>
       </div>
     </div>
   );

@@ -21,11 +21,11 @@ const Statistics = () => {
 
   return (
     <>
-     <div className=" flex justify-center items-center min-h-screen">
+     <div className=" flex justify-center items-center min-h-screen mt-7 lg:mt-0">
         <Chart
         type="pie"
-        width={500}
-        height={400}
+        width={450}
+        height={450}
         series={[avarage, totalValue ]}
         options={{
             labels:['Total Donation', "Your Donation"],
