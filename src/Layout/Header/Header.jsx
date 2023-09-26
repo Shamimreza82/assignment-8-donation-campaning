@@ -4,12 +4,12 @@ import Logo from '../../assets/Logo.png'
 
 const Header = () => {
   return (
-    <div>
-      <nav className="flex justify-between items-center px-4 py-3">
+    <div >
+      <nav className="flex justify-between items-center px-4 py-3 ">
         <div>
             <img className="w-[150px]" src={Logo} alt="Logo" />
         </div>
-        <ul className="flex gap-6">
+        <ul className="flex lg:gap-6 gap-3">
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>

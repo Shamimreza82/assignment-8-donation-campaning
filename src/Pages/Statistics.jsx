@@ -24,7 +24,7 @@ const Statistics = () => {
      <div className=" flex justify-center items-center min-h-screen mt-7 lg:mt-0">
         <Chart
         type="pie"
-        width={450}
+        width={400}
         height={450}
         series={[avarage, totalValue]}
         options={{
