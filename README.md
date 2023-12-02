@@ -1,4 +1,5 @@
 ## Project Features
+Live: link: https://naive-lighiiit.surge.sh/
 
 * All pages of the site are responsive.Which increases the user experience a lot. 
 * The site has added search ‍ functionality to the homepage where can search by category.
